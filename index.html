@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy — Nexora</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+```
+:root {
+  --cream: #f5f0eb;
+  --warm-white: #faf8f5;
+  --rose: #8b3a3a;
+  --rose-light: #c97b7b;
+  --dark: #1a1410;
+  --muted: #7a6e65;
+  --border: #e8e0d8;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--dark);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.75;
+  min-height: 100vh;
+}
+
+header {
+  background: var(--warm-white);
+  border-bottom: 1px solid var(--border);
+  padding: 24px 40px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  animation: fadeDown 0.6s ease both;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  color: var(--rose);
+  letter-spacing: -0.01em;
+}
+
+.logo-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--rose-light);
+  border-radius: 50%;
+  margin-top: 4px;
+}
+
+main {
+  max-width: 720px;
+  margin: 60px auto;
+  padding: 0 24px 80px;
+  animation: fadeUp 0.7s ease 0.1s both;
+}
+
+.hero {
+  margin-bottom: 56px;
+}
+
+.badge {
+  display: inline-block;
+  background: #f0e8e8;
+  color: var(--rose);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.2rem, 5vw, 3rem);
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--dark);
+  margin-bottom: 8px;
+}
+
+h1 em {
+  color: var(--rose);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.updated {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 16px;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 48px 0;
+}
+
+.section {
+  margin-bottom: 40px;
+  animation: fadeUp 0.5s ease both;
+}
+
+.section:nth-child(2) { animation-delay: 0.15s; }
+.section:nth-child(3) { animation-delay: 0.2s; }
+.section:nth-child(4) { animation-delay: 0.25s; }
+.section:nth-child(5) { animation-delay: 0.3s; }
+.section:nth-child(6) { animation-delay: 0.35s; }
+.section:nth-child(7) { animation-delay: 0.4s; }
+.section:nth-child(8) { animation-delay: 0.45s; }
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+h2::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 18px;
+  background: var(--rose);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+p {
+  color: #4a403a;
+  font-size: 0.97rem;
+  line-height: 1.8;
+}
+
+a {
+  color: var(--rose);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rose-light);
+  transition: opacity 0.2s;
+}
+
+a:hover { opacity: 0.7; }
+
+.contact-card {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px 28px;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.contact-icon {
+  font-size: 1.4rem;
+}
+
+.contact-card p {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+
+.contact-card a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--rose);
+}
+
+footer {
+  text-align: center;
+  padding: 32px;
+  font-size: 0.8rem;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+}
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+  header { padding: 20px 24px; }
+  main { margin: 40px auto; }
+}
+```
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <span class="logo">Nexora</span>
+    <div class="logo-dot"></div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="badge">Legal</div>
+      <h1>Privacy Policy.<br><em>Clear and simple.</em></h1>
+      <p class="updated">Last updated: May 10, 2026</p>
+    </div>
+
+```
+<hr class="divider"/>
+
+<div class="section">
+  <h2>Introduction</h2>
+  <p>Nexora ("we", "our", or "us") is a study assistant app developed by Nexora Labs. This Privacy Policy explains how we handle your information when you use our app. We believe in keeping things simple and transparent.</p>
+</div>
+
+<div class="section">
+  <h2>Information We Collect</h2>
+  <p>We do not require you to create an account. The only data processed is the text, notes, or documents you voluntarily submit within the app for study purposes. We do not collect your name, email, location, or any other personal identifiers.</p>
+</div>
+
+<div class="section">
+  <h2>How We Use Your Data</h2>
+  <p>Content you submit — typed notes, pasted text, or uploaded PDFs — is sent to Anthropic's Claude AI to generate summaries, quizzes, flashcards, and mind maps. This content is processed solely to provide you with study output and is not stored by us after your session.</p>
+</div>
+
+<div class="section">
+  <h2>Third-Party Services</h2>
+  <p>Nexora uses Claude, an AI service provided by Anthropic. Your submitted content is processed according to Anthropic's privacy policy, available at <a href="https://anthropic.com/privacy" target="_blank">anthropic.com/privacy</a>. We do not share your data with any other third parties.</p>
+</div>
+
+<div class="section">
+  <h2>Data Storage</h2>
+  <p>Nexora does not store, sell, or share your personal data. No user accounts or profiles are created. Your content is processed in the moment and not retained on our servers.</p>
+</div>
+
+<div class="section">
+  <h2>Children's Privacy</h2>
+  <p>Nexora is suitable for users of all ages. We do not knowingly collect personal information from children under the age of 13. If you believe a child has submitted personal information through our app, please contact us immediately.</p>
+</div>
+
+<div class="section">
+  <h2>Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. We will notify users of any significant changes by updating the date at the top of this page. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+</div>
+
+<div class="section">
+  <h2>Contact Us</h2>
+  <p>If you have any questions or concerns about this Privacy Policy, please reach out:</p>
+  <div class="contact-card">
+    <span class="contact-icon">📧</span>
+    <div>
+      <p>Privacy enquiries</p>
+      <a href="mailto:Season.mail1@gmail.com">Season.mail1@gmail.com</a>
+    </div>
+  </div>
+</div>
+```
+
+  </main>
+
+  <footer>
+    © 2026 Nexora Labs. All rights reserved.
+  </footer>
+
+</body>
+</html>
